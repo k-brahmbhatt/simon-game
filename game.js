@@ -13,7 +13,7 @@ function playSound(name){
 
 // To start a game
 
-$(document).keypress(function (e) { 
+$(document).click(function (e) { 
     if (!gameOn){
         gameOn = true;
         nextSequence();      
